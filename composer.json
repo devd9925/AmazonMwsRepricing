@@ -1,0 +1,31 @@
+{
+    "name": "devd9925/AmazonMwsRepricing",
+    "description": "Package for creating Amazon MWS Repricing",
+    "keywords": ["Amazon MWS Repricing", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "",
+            "email": "devd9925@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "plugmystore/amazon-mws-feeds": "dev-master",
+        "parsecsv/php-parsecsv": "0.4.5",
+        "raffw/mws-product-api": "dev-master",
+        "exeu/apai-io": "dev-master",
+        "twinsen/mws-subscription-api":"dev-master",
+        "aws/aws-sdk-php":"~3.0",
+        "sunra/php-simple-html-dom-parser": "v1.5.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devd9925\\AmazonMwsRepricing\\": "src/"
+        }
+    }
+}
